@@ -158,7 +158,7 @@ int __stdcall WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdL
 		}
 
 		//simulate
-		clear_screen(0x000000);
+		render_background();
 		draw_walls(map);
 
 			playerMapNumber = ((int)PlayerY * mapWidth) + (int)PlayerX;

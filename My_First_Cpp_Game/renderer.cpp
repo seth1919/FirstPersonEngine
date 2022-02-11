@@ -2,7 +2,14 @@ void render_background() {
 	unsigned int* pixel = (unsigned int*)buffer_memory;
 	for (int y = 0; y < (buffer_height); y++) {
 		for (int x = 0; x < (buffer_width); x++) {
-			*pixel = 0xff00ff;
+			unsigned int color = 0x000000;
+			int distanceFromPlayer = abs(y - (buffer_height / 2));
+			distanceFromPlayer = distanceFromPlayer * 256;
+			distanceFromPlayer = distanceFromPlayer / (buffer_height);
+			color = color + ((int)(distanceFromPlayer) * 0x010000); //red
+			color = color + ((int)(distanceFromPlayer) * 0x000100); //green
+			color = color + ((int)(distanceFromPlayer) * 0x000001); //blue
+			*pixel = color;
 			pixel = pixel + 1;
 		}
 	}
