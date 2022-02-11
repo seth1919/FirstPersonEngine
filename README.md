@@ -16,3 +16,7 @@ walls can appear curved.
 ### How to Use
 This project was made in Visual Studio. I recomend cloning and compiling the repository from there. Use the arrow keys to move around. I 
 did not handle input from the player very well, so you can only press one key at a time and the player will not start moving immediately.
+
+### Resources
+I got my method for rendering the game from this youtube tutorial.
+https://www.youtube.com/watch?v=xW8skO7MFYw
