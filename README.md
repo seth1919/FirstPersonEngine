@@ -1,5 +1,7 @@
 # FirstPersonEngine
 
+See a quick preview of this project on my YouTube channel: https://www.youtube.com/watch?v=pGJHIyOd-CM
+
 ### Comments
 I made this project before I used Github, without the goal in mind of sharing the source code with anybody. Thus, documentation is lacking.
 
